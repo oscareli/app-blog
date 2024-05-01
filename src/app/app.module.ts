@@ -8,6 +8,8 @@ import { HeaderMenuComponent } from './components/header-menu/header-menu.compon
 import { SiteTitleComponent } from './components/site-title/site-title.component';
 import { PostComponent } from './components/post/post.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DetailedPostComponent } from './components/detailed-post/detailed-post.component';
+import { SocialMediasComponent } from './components/social-medias/social-medias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     SiteTitleComponent,
     PostComponent,
-    FooterComponent
+    FooterComponent,
+    DetailedPostComponent,
+    SocialMediasComponent
   ],
   imports: [
     BrowserModule,
